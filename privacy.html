@@ -30,22 +30,30 @@
 <main>
 <header><img src="icon.png" alt=""><a href="index.html">Fitted</a></header>
 <h1>Privacy Policy</h1>
-<p>Effective 27 September 2026</p>
+<p>Effective 7 October 2026</p>
 <p>Fitted helps you tailor your resume to a job. We built it to use as little of your information as possible. This policy explains, in plain words, what happens to your information when you use the app.</p>
 <h2>In short</h2>
 <ul>
-<li>Your resume stays on your iPhone.</li>
-<li>Before your resume is reviewed, your personal details, such as your name, contact details and links, are masked. Only the masked resume and the job description are sent to write your suggestions, and only after you give permission.</li>
+<li>Your resume file and saved results stay on your device.</li>
+<li>To write your suggestions, your resume text and the job description are sent to an AI service run by Groq, or by Google if Groq is unavailable. This happens only after you give permission.</li>
+<li>Your name, email, phone number, links, addresses, ID numbers and date of birth are removed on your device before anything is sent.</li>
 <li>We don&#x27;t keep your resume or the job description after your review.</li>
 <li>No ads, no tracking, and we never sell your information.</li>
 </ul>
-<h2>What stays on your iPhone</h2>
-<p>Your resume, the job descriptions you paste and your saved results are kept on your iPhone only. You can clear your history at any time, and deleting the app removes it.</p>
+<h2>What stays on your device</h2>
+<p>Your resume file, the job descriptions you paste and your saved results are kept on your device only. You can clear your history at any time, and deleting the app removes it.</p>
 <h2>How your suggestions are made</h2>
-<p>When you ask for a review, the app masks your personal details on your iPhone first. The masked resume and the job description are then sent securely to our service and to a third-party AI service, which writes your suggestions. Your details are put back into the suggestions on your iPhone, so they read naturally.</p>
-<p>We ask for your permission before your first review. You can withdraw it at any time in <strong>Account → Allow AI review</strong>; the app will then ask again before it sends anything.</p>
-<p>The AI service may use the text it receives to improve its own services. This is one reason your personal details are masked before anything is sent.</p>
-<p>We don&#x27;t keep what you send. Your finished suggestions are held for a short time, up to one day, so that an interrupted review can be shown again without using another credit, and are then deleted.</p>
+<p>When you tap <strong>Tailor my resume</strong>, the app reads the text of your resume on your device and removes your personal details: your name, email address, phone number, links, addresses, ID numbers and date of birth. Each one is replaced with a placeholder such as [EMAIL].</p>
+<p><strong>What is sent:</strong> the rest of your resume text, such as your work history, employers, job titles, education and skills, and the job description you pasted.</p>
+<p><strong>Who it is sent to:</strong> it goes over a secure connection to our server, which is hosted by Supabase, and from there to one of these AI providers:</p>
+<ul>
+<li><strong>Groq, Inc.</strong> (groq.com), which runs the AI model that writes your suggestions;</li>
+<li><strong>Google LLC</strong>, through the Gemini API, used only when Groq is unavailable.</li>
+</ul>
+<p><strong>How it is used:</strong> only to write your suggestions, your estimated match score and the list of skills the job asks for. It is not used for advertising, it is not sold, and we don&#x27;t use it to build a profile of you. Your personal details are put back into the suggestions on your device, so they read naturally. The AI providers never see them.</p>
+<p><strong>Your permission:</strong> the app asks for your permission, and names these providers, before it sends anything for the first time. You can withdraw it at any time in <strong>Account → Allow AI review</strong>; the app will then ask again before it sends anything.</p>
+<p><strong>What the AI providers may do with it:</strong> Groq and Google handle what they receive under their own terms and privacy policies (groq.com/privacy-policy and policies.google.com/privacy). Google may use what it receives through the Gemini API to improve its products, and people at Google may read it. This is one reason your personal details are removed before anything is sent. If you don&#x27;t want this, don&#x27;t allow AI review.</p>
+<p>We don&#x27;t keep what you send. Your finished suggestions are held for a short time, up to two days, so that an interrupted review can be shown again without using another credit, and are then deleted.</p>
 <h2>What we keep about your account</h2>
 <ul>
 <li><strong>Your sign-in.</strong> When you sign in with Apple, we receive a private account ID from Apple, and your email address only if you choose to share it.</li>
@@ -57,15 +65,16 @@
 <h2>Who helps us run the app</h2>
 <p>We use a small number of trusted service providers:</p>
 <ul>
-<li>a hosting provider that runs our service and stores your account and credits;</li>
-<li>a third-party AI service that writes your suggestions from the masked resume and job description;</li>
-<li>Apple, for signing in and payments.</li>
+<li><strong>Supabase</strong>, which hosts our server and stores your account and credits;</li>
+<li><strong>Groq, Inc.</strong>, which receives your resume text without your personal details, and the job description, to write your suggestions;</li>
+<li><strong>Google LLC</strong> (Gemini API), which receives the same text only when Groq is unavailable;</li>
+<li><strong>Apple</strong>, for signing in and payments.</li>
 </ul>
-<p>We only share what each of them needs to do its job, and we require them to protect it.</p>
+<p>We only share what each of them needs to do its job. Each of them is bound by its own terms and privacy policy to keep what it receives secure and to use it only to provide its service to us, except as described above for Google.</p>
 <h2>How long we keep information</h2>
 <ul>
 <li>Your resume and job descriptions: we don&#x27;t keep them.</li>
-<li>Your suggestions: up to one day.</li>
+<li>Your suggestions: up to two days.</li>
 <li>Service records: 90 days.</li>
 <li>Your account, credits and purchases: until you delete your account.</li>
 </ul>
